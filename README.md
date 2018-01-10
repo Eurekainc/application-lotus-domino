@@ -14,7 +14,7 @@ DESCRIPTION OF THE TECHNOLOGY MONITORED
 
 ANY SPECIAL CONFIGURATION STEPS E.G. ENABLING API OR INSTALLING REQUIRED LIBRARIES
 
-To configure and utilize this Opspack, you simply need to add the 'OPSPACK NAME' Opspack your Opsview Monitor system.
+To configure and utilize this Opspack, you simply need to add the 'OPSPACK NAME' Opspack to your Opsview Monitor system.
 
 Step 1: Add the host template
 
