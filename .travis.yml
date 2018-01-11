@@ -19,6 +19,8 @@ install:
 - make create_opspack
 notifications:
   email: false
+script:
+  - "./bin/verify_plugin.sh"
 before_deploy:
 - "./bin/pre_deploy.sh"
 deploy:
