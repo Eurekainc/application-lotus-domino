@@ -3,6 +3,7 @@
 set -u
 set -o pipefail
 
+chmod +x ${OPSPACK_NAME}/plugins/*
 
 ./${OPSPACK_NAME}/plugins/* -h
 
