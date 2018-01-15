@@ -1,27 +1,22 @@
-[![Build Status](https://travis-ci.org/opsview/Opspack-Template.svg?branch=master)](https://travis-ci.org/opsview/Opspack-Template)
+[![Build Status](https://travis-ci.org/opsview/application-lotus-domino.svg?branch=master)](https://travis-ci.org/opsview/application-lotus-domino)
 
-# Opspack Template
+# Lotus Domino
 
-DESCRIPTION OF THE TECHNOLOGY MONITORED
+IBM® Domino® (formerly IBM Lotus® Domino) is an advanced platform for hosting social business applications. It delivers scalable, security-rich applications at a low cost, helping you improve productivity, accelerate operations and enhance decision-making.
 
 ## Service Checks
 
-| Service Check | Description |
-|:------------- |:----------- |
-| SERVICE CHECK NAME | DESCRIPTION OF SERVICE CHECK |
+| Service Check |Description|
+|:------------- | :-------------|
+|Lotus Domino | Checks TCP port 1352
+
 
 ## Setup and Configuration
 
-ANY SPECIAL CONFIGURATION STEPS E.G. ENABLING API OR INSTALLING REQUIRED LIBRARIES
-
-To configure and utilize this Opspack, you simply need to add the 'OPSPACK NAME' Opspack to your Opsview Monitor system.
+To configure and utilize this Opspack, you simply need to add the 'Application - Lotus Domino' Opspack to the host running the Lotus Domino software.
 
 Step 1: Add the host template
+![Add host template](/docs/img/host-template.png?raw=true)
 
-Step 2: Add and configure variables required for this host
-
-Step 3: Reload and the system will now be monitored
-
-## Additional Options
-
-LIST ANY FURTHER OPTIONS A USER MAY CONFIGURE FOR THE OPSPACK/PLUGIN
+Step 2:  Reload and view the Lotus Domino statistics
+![Service checks](/docs/img/output.png?raw=true)
